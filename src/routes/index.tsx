@@ -10,6 +10,11 @@ export default component$(() => {
         <br />
         Happy coding.
       </div>
+      <script
+        type="speculationrules"
+        dangerouslySetInnerHTML={`{"prefetch":[{"urls":["/about/index.html"]}]}`}
+      />
+      <a href="/about/">About</a>
     </>
   );
 });
